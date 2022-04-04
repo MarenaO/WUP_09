@@ -111,5 +111,7 @@ subsets(regsubsets.out,statistic="adjr2", legend="bottomleft",main="Adjusted R^2
 
 ### Best Two regressor model
 
+According to this plot, the best two regressor model is the one that uses Length 3 and width. It's adjusted r-squared value is a little above 0.845. It is also the best model overall since it has the highest adjusted r-squared value.
+
 
 ## Final Summary Statements
