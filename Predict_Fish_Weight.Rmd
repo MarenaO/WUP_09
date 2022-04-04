@@ -82,6 +82,8 @@ subsets(regsubsets.out,statistic="adjr2", legend="bottomright",main="Adjusted R^
 
 ### Best Two regressor model
 
+According to this plot, the best two regressor model is the one that uses Length 1 and Length 3. It's adjusted r-squared value is around 0.965. Although, it is not the best model overall since it does not have the highest adjusted r-squared value.
+
 ## Roach
 
 ```{r}
