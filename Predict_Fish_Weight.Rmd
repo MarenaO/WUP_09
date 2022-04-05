@@ -46,7 +46,7 @@ According to this information, the best two regressor model is the one that uses
 
 ### Best Two regressor model
 
-The best two regressor model is the one that uses height and weight.
+The best two regressor model is the one that uses height and width.
 
 ## Pike
 
