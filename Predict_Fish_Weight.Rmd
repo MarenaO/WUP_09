@@ -16,7 +16,6 @@ output:
 ```{r include=FALSE,echo=FALSE}
 require(tigerstats)
 require(tidyverse)
-Fish<-read.csv(file = "Fish.csv")
 ```
 
 # Predicting Fish Weight
@@ -24,14 +23,9 @@ Fish<-read.csv(file = "Fish.csv")
 
 ## Perch
 
-```{r}
-Perch<- filter(Fish, Species == "Perch")
-Perch = subset(Perch, select = -Species)
-```
-
-
 ### Best Models
 
+<<<<<<< HEAD
 ```{r}
 library(leaps)
 regsubsets.out <-
@@ -48,12 +42,13 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 ```
 
-According to this information, the best two regressor model is the one that uses Height and weight. It is also the best model overall since it has the hughest adjusted r-squared value of 0.94.
+According to this information, the best two regressor model is the one that uses Height and width. It is also the best model overall since it has the highest adjusted r-squared value of 0.94.
 
+=======
+>>>>>>> parent of 7d91fb4... comment on best moel for perch
 ### Best Two regressor model
 
 The best two regressor model is the one that uses height and weight.
-
 
 ## Pike
 
