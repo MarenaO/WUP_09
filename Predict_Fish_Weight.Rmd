@@ -44,8 +44,6 @@ subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 
 According to this information, the best two regressor model is the one that uses Height and width. It is also the best model overall since it has the highest adjusted r-squared value of 0.94.
 
-=======
->>>>>>> parent of 7d91fb4... comment on best moel for perch
 ### Best Two regressor model
 
 The best two regressor model is the one that uses height and weight.
@@ -110,3 +108,5 @@ According to this plot, the best two regressor model is the one that uses Length
 
 
 ## Final Summary Statements
+
+I took a while completing this assignment because I was unfamiliar on how to do certain things leading up to the problem. For example, I forgot how to read in the data, as well as filter out a specific dataset. Although, once I found the commands for this, the rest of the assignment went quite well. I was able to find the best 2 regressor models for a Perch, a Roach, and a Pike. For the perch, I found that the best two regressor model is the one that uses Height and width. It was also the best model overall. For the pike, the best two regressor model is the one that uses Length 1 and Length 3. For the roach, the best two regressor model is the one that uses Length 3 and width. It was also the best model overall. So, for the roach and the perch, the 2 regressor models also happened to be the best models overall since they had the highest adjusted r-squared value.
